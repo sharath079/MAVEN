@@ -5,7 +5,7 @@
 
   <groupId>com.udemy</groupId>
   <artifactId>MavenReleasePlugin</artifactId>
-  <version>1.0.SNAPSHOT</version>
+  <version>1.2.SNAPSHOT</version>
 
   <name>MavenReleasePlugin</name>
   <!-- FIXME change it to the project's website -->
@@ -28,7 +28,6 @@
   </dependencies>
 <!-- Maven SCM Config -->
 <scm>
-    <connection>scm:git:https://github.com/sharath079/MAVEN.git</connection>
     <developerConnection>scm:git:https://github.com/sharath079/MAVEN.git</developerConnection>
     <url>https://github.com/sharath079/MAVEN</url>
     <tag>HEAD</tag>
