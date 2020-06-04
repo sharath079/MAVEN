@@ -1,0 +1,41 @@
+1) create Maven-Project ---> ADD the project to GIT by rt.click--->Team-->Share Project 
+--->Commit all changes to GIT.
+2) Rt.click on Project -->Show in Local Terminal-->GitBash-->GitBash Terminal opens
+3) Make Changes to ur "pom.xml"
+
+4)
+<!-- Maven SCM Config -->
+<scm>
+    <developerConnection>scm:git:https://github.com/sharath079/MAVEN.git</developerConnection>
+    <url>https://github.com/sharath079/MAVEN</url>
+    <tag>HEAD</tag>
+</scm>
+
+ADD Maven-release-plugin to pom.xml:
+===================================
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-release-plugin</artifactId>
+    <version>2.5.3</version>
+</plugin>
+
+5)
+ADD PackageCloud profile in "pom.xml & Authenticate "settings.xml"
+
+<project.scm.id>github</project.scm.id> to "<properties>" tag
+
+6) change project version to SNAPSHOT verion eg "1.0.SNAPSHOT"
+
+7) Commit All changes to GIT and UPDATE the project.
+
+8) On Git-Bash terminal execute "git config --global user.email/user.name"
+
+9) On Git-Bash terminal execute "mvn release:prepare"
+
+10) After "BUILD SUCCESS" on above execution --->
+    On Git-Bash terminal execute "mvn release:perform"
+
+After BUILD SUCCESS check GIT -->master-branch-->tags-->releases.
+ and on PackageCloud your SNAPSHOT project will be updated.
+ 
+     
