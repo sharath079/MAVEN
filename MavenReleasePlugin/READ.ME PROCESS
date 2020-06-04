@@ -38,4 +38,4 @@ ADD PackageCloud profile in "pom.xml & Authenticate "settings.xml"
 After BUILD SUCCESS check GIT -->master-branch-->tags-->releases.
  and on PackageCloud your SNAPSHOT project will be updated.
  
-     
+Execute "mvn release:clean" goal to remove temp .properties file
