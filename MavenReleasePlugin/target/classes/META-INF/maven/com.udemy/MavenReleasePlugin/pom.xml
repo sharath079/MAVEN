@@ -28,6 +28,7 @@
   </dependencies>
 <!-- Maven SCM Config -->
 <scm>
+    <connection>scm:git:https://github.com/sharath079/MAVEN.git</connection>
     <developerConnection>scm:git:https://github.com/sharath079/MAVEN.git</developerConnection>
     <url>https://github.com/sharath079/MAVEN</url>
     <tag>HEAD</tag>
