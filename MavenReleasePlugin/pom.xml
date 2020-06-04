@@ -5,7 +5,7 @@
 
   <groupId>com.udemy</groupId>
   <artifactId>MavenReleasePlugin</artifactId>
-  <version>1.2.SNAPSHOT</version>
+  <version>1.3</version>
 
   <name>MavenReleasePlugin</name>
   <!-- FIXME change it to the project's website -->
@@ -30,7 +30,7 @@
 <scm>
     <developerConnection>scm:git:https://github.com/sharath079/MAVEN.git</developerConnection>
     <url>https://github.com/sharath079/MAVEN</url>
-    <tag>HEAD</tag>
+    <tag>MavenReleasePlugin-1.3</tag>
 </scm>
 
   <build>
